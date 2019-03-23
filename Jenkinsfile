@@ -5,15 +5,15 @@ checkout scm
 }
 
 stage("build"){
-bat 'mvn clean install'
+// bat 'mvn clean install'
 }
 
 stage("deploy to sonarqube"){
-bat 'mvn sonar:sonar'
+// bat 'mvn sonar:sonar'
 }
 
 stage("deploy to nexus"){
-bat 'mvn clean deploy'
+// bat 'mvn clean deploy'
 }
 
 stage("deploy to tomcat"){
