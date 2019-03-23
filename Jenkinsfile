@@ -17,7 +17,7 @@ bat 'mvn clean deploy'
 }
 
 stage("deploy to tomcat"){
-bat 'copy **\*.war E:\Softwares\apache-tomcat-8.5.38\apache-tomcat-8.5.38\webapps\'
+bat 'copy **/*.war E://Softwares/apache-tomcat-8.5.38/apache-tomcat-8.5.38/webapps/'
 }
 
 }
