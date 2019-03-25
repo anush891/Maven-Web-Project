@@ -23,3 +23,4 @@ bat 'copy %workspace%\\target\\*.war E:\\Softwares\\apache-tomcat-8.5.38\\apache
   stage("deploy to wildfly"){
   bat 'copy %workspace%\\target\\*.war E:\\Softwares\\wildfly-16.0.0.Final.zip\\wildfly-16.0.0.Final\\standalone\\deployments'
 }
+}
